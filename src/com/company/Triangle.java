@@ -5,16 +5,17 @@ public class Triangle {
     private double heightB;
     private double baseLength;
     private double area;
-    private double half =.5;
+    private double half = .5;
 
-    public void setHeightB (int triangleHeight) {
+    public void setHeightB(int triangleHeight) {
         heightB = triangleHeight;
     }
 
     public double getHeightB() {
         return heightB;
     }
-    public void setBaseLength (int triangleBase) {
+
+    public void setBaseLength(int triangleBase) {
         baseLength = triangleBase;
     }
 
@@ -22,17 +23,15 @@ public class Triangle {
         return baseLength;
     }
 
-    public  double calculateTriangleArea() {
-        area = half*(heightB * baseLength);
+    public double calculateTriangleArea() {
+        area = half * (heightB * baseLength);
         return area;
     }
 
-    public void triangleInfo(){
+    public void triangleInfo() {
         System.out.print("Your lovely triangle's area is" + area);
-        System.out.print("FunFact: Your Triangle has 3 sides"); 
+        System.out.print("FunFact: Your Triangle has 3 sides");
 
     }
-
-
 
 }
