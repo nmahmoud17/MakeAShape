@@ -3,22 +3,29 @@ package com.company;
 public class Square {
 
 
-    private int side;
+    private int sideLength;
+    private int area;
 
-    public void setSide (int squareSide) {
-        side = squareSide;
+    public void setSideLength (int squareSide) {
+        sideLength = squareSide;
     }
 
-    public int getSide() {
-        return side;
+    public int getSideLength() {
+        return sideLength;
     }
 
 
-
-    public  int calculateSquareArea(int side) {
-        int area = side * side;
+    public  int calculateSquareArea() {
+        area = sideLength * sideLength;
         return area;
     }
+
+    public void squareInfo(){
+        System.out.print("The rectangle side length is" + getSideLength());
+        System.out.print ("The squares area is " + calculateSquareArea());
+
+    }
+
 
 
 }

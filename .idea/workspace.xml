@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c49d0d99-1213-45dd-8f33-48ac8ad2cb98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Triangle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="60">
+              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -34,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Square.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="300">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="e#134#135#0" expanded="true" />
                 <element signature="e#166#167#0" expanded="true" />
@@ -49,11 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Triangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="465">
+              <caret line="31" column="64" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
+              <folding>
+                <element signature="e#147#148#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,15 +81,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/Triangle.java" />
         <option value="$PROJECT_DIR$/src/com/company/Circle.java" />
         <option value="$PROJECT_DIR$/src/com/company/Square.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Triangle.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="623" />
-    <option name="y" value="28" />
+    <option name="x" value="612" />
+    <option name="y" value="61" />
     <option name="width" value="817" />
     <option name="height" value="791" />
   </component>
@@ -99,6 +107,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548191242590" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -134,15 +143,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548188186430</updated>
-      <workItem from="1548188187628" duration="1058000" />
+      <workItem from="1548188187628" duration="3243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1058000" />
+    <option name="totallyTimeSpent" value="3243000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="623" y="28" width="817" height="791" extended-state="0" />
+    <frame x="612" y="61" width="817" height="791" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -150,7 +159,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24903226" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24903226" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -179,17 +188,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Triangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="60">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -202,13 +204,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Square.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="300">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="e#134#135#0" expanded="true" />
             <element signature="e#166#167#0" expanded="true" />
             <element signature="e#195#196#0" expanded="true" />
             <element signature="e#223#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="64" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
           </folding>
         </state>
       </provider>
