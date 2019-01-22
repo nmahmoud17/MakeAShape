@@ -4,7 +4,8 @@ public class Circle {
 
     // pi r^2
     private int radius;
-    private int pi;
-
+    private int diameter;
+    private int circumference;
+    private int area;
 
 }

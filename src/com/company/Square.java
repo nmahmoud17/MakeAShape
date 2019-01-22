@@ -2,27 +2,21 @@ package com.company;
 
 public class Square {
 
-    private int width;
-    private int height;
 
-    public void setWidth (int squareWidth) {
-        width = squareWidth;
+    private int side;
+
+    public void setSide (int squareSide) {
+        side = squareSide;
     }
 
-    public int getWidth() {
-        return width;
+    public int getSide() {
+        return side;
     }
 
-    public void setHeight(int squareHeight) {
-        height = squareHeight;
-    }
 
-    public int getHeight() {
-        return height;
-    }
 
-    public  int calculateSquareArea(int height, int width) {
-        int area = height * width;
+    public  int calculateSquareArea(int side) {
+        int area = side * side;
         return area;
     }
 
