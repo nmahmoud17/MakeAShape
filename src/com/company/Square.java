@@ -23,9 +23,12 @@ public class Square {
     }
 
     public void squareInfo(){
-        System.out.print("The rectangle side length is " + getSideLength());
+        System.out.print("Each side of the square is " + getSideLength() + " inches long");
         System.out.print("\n");
-        System.out.print ("The squares area is " + calculateSquareArea());
+        System.out.print ("The square's area is " + calculateSquareArea() + " square inches");
+        System.out.print("\n");
+        System.out.print ("Fun Fact: A Square is also a rectangle with equal sides" );
+
 
     }
 

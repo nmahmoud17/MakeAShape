@@ -15,16 +15,19 @@ public class Main {
         do {
 
             Scanner reader = new Scanner(System.in);
-            System.out.println("\n"); 
+            System.out.println("\n");
             System.out.println("What shape would you like to print?");
             System.out.println("");
             System.out.println("Square");
             System.out.println("Circle");
             System.out.println("Triangle");
+            System.out.println("Enter 'Done' if you're over making shapes");
+
+
             answer = reader.next();
 
             if (answer.equals("Square")) {
-                System.out.println("What is the length of the square's side?");
+                System.out.println("Enter the length of one side of your square");
                     int squareSide = reader.nextInt ();
                     mySquare.setSideLength(squareSide);
                     mySquare.getSideLength();
@@ -40,9 +43,15 @@ public class Main {
 
             else if (answer.equals ("Triangle")){
 
-            } else {
-                System.out.println ("Make sure you type one of the shapes!");
+            }
+
+            else if (answer.equals ("Done")) {
                 createAnotherShape = false;
+            }
+
+            else {
+                System.out.println ("Make sure you type one of the options!");
+                createAnotherShape = true;
             }
 
 
