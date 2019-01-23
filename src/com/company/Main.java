@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         boolean createAnotherShape = true;
-        String answer;
+        int answer;
         Square mySquare = new Square ();
         Circle myCircle = new Circle ();
         Triangle myTriangle = new Triangle();
@@ -18,15 +18,15 @@ public class Main {
             System.out.println("\n");
             System.out.println("What shape would you like to print?");
             System.out.println("");
-            System.out.println("Square");
-            System.out.println("Circle");
-            System.out.println("Triangle");
-            System.out.println("Enter 'Done' if you're over making shapes");
+            System.out.println("1. Square");
+            System.out.println("2. Circle");
+            System.out.println("3. Triangle");
+            System.out.println("4. Done with making shapes");
 
 
-            answer = reader.next();
+            answer = reader.nextInt();
 
-            if (answer.equals("Square")) {
+            if (answer==1) {
                 System.out.println("Enter the length of one side of your square");
                     int squareSide = reader.nextInt ();
                     mySquare.setSideLength(squareSide);
@@ -37,15 +37,15 @@ public class Main {
                     createAnotherShape = true;
             }
 
-            else if  (answer.equals ("Circle")){
+            else if  (answer==2){
 
             }
 
-            else if (answer.equals ("Triangle")){
+            else if (answer==3){
 
             }
 
-            else if (answer.equals ("Done")) {
+            else if (answer==4) {
                 createAnotherShape = false;
             }
 
