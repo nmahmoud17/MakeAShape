@@ -3,21 +3,21 @@ package com.company;
 public class Square {
 
 
-    private int sideLength;
-    private int area;
+    private double sideLength;
+    private double area;
 
-    public void setSideLength (int squareSide) {
+    public void setSideLength (double squareSide) {
 
         sideLength = squareSide;
     }
 
-    public int getSideLength() {
+    public double getSideLength() {
 
         return sideLength;
     }
 
 
-    public  int calculateSquareArea() {
+    public  double calculateSquareArea() {
         area = sideLength * sideLength;
         return area;
     }
@@ -33,6 +33,7 @@ public class Square {
         System.out.print ("--The square's area is " + calculateSquareArea() + " square inches");
         System.out.print("\n");
         System.out.print ("--Fun Fact: A Square is also a rectangle with equal sides" );
+        System.out.print("\n");
         System.out.print("--------------------------------------------");
 
 

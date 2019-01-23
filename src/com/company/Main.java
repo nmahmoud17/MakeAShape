@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         boolean createAnotherShape = true;
-        int answer;
+        double answer;
         Square mySquare = new Square ();
         Circle myCircle = new Circle ();
         Triangle myTriangle = new Triangle();
@@ -24,11 +24,11 @@ public class Main {
             System.out.println("4. Done with making shapes");
 
 
-            answer = reader.nextInt();
+            answer = reader.nextDouble();
 
             if (answer==1) {
                 System.out.println("Enter the length of one side of your square");
-                    int squareSide = reader.nextInt ();
+                    double squareSide = reader.nextDouble();
                     mySquare.setSideLength(squareSide);
                     mySquare.getSideLength();
                     mySquare.calculateSquareArea();
