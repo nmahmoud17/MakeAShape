@@ -22,11 +22,11 @@ public class Circle {
     }
 
     public double calculateCircumference() {
-        return circumference = diameter * 3.14;
+        return circumference = diameter * Math.PI;
     }
 
     public double calculateCircleArea() {
-        return area = 3.14 * radius;
+        return area = Math.PI * radius;
     }
 
 
@@ -35,6 +35,10 @@ public class Circle {
         System.out.print("The circle's diameter is " + diameter);
         System.out.print("The circle's circumference is " + circumference);
         System.out.print("The circle's area is " + area);
+        System.out.println("FunFact: In situations where there are no navigational clues " +
+                "– such as a snowstorm or thick fog – " +
+                "humans always end up going around in circles.\n" +
+                "\n");
 
     }
 }
