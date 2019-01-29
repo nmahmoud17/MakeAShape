@@ -7,7 +7,7 @@ public class Triangle {
     private double area;
     private double half = .5;
 
-    public void setHeightB(int triangleHeight) {
+    public void setHeightB(double triangleHeight) {
         heightB = triangleHeight;
     }
 
@@ -15,7 +15,7 @@ public class Triangle {
         return heightB;
     }
 
-    public void setBaseLength(int triangleBase) {
+    public void setBaseLength(double triangleBase) {
         baseLength = triangleBase;
     }
 
@@ -29,8 +29,16 @@ public class Triangle {
     }
 
     public void triangleInfo() {
-        System.out.print("Your lovely triangle's area is" + area);
-        System.out.print("FunFact: Your Triangle has 3 sides");
+        System.out.print("YOUR TRIANGLE'S PROPERTIES");
+        System.out.print("\n");
+        System.out.print("--------------------------------------------" + "\n");
+        System.out.print("Your lovely triangle's area is" + area + "\n");
+        System.out.print("\n");
+        System.out.print("FunFact: Every triangle has 3 sides, and I couldn't find another fun fact");
+        System.out.print("\n");
+        System.out.print("--------------------------------------------");
+        System.out.print("\n");
+
 
     }
 
